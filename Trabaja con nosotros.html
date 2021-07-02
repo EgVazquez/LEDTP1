@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con Nosotros</title>
+    <header><strong>Trabaja con Nosotros</strong></header>
+</head>
+<link rel="stylesheet" type="text/css" href="listaCSS.css"/>
+</head>
+<style>
+    body{
+    background-color: gray;
+    color: whitesmoke;
+    }
+</style>
+<body>
+    <nav>
+        <ul id= "lista1"><!-- ACA VAN LA PARTE DE LA BARRA HORIZONTAL-->
+            <li><a href="index.html"><div aling="center"><FONT SIZE=3 COLOR="white" FACE="Time New Romans">PRINCIPAL</FONT></a></li>
+            <li><a href="Trabaja con nosotros.html"><div aling="center"><FONT SIZE=3 COLOR="white" FACE="Time New Romans">TRABAJA CON NOSOTROS</FONT></a></li>
+            <li><a href="Contacto.html"><div aling="center"><FONT SIZE=3 COLOR="white" FACE="Time New Romans"> CONTACTOS</FONT></a></li>
+        </ul>
+    </nav>
+    <section>
+        <form name="miform" id="miform" method="POST" enctype="multipart/form-data"><div align="center">
+        <br>Nombre y Apellido<br/>
+        <input type="text" name="Nombre" maxlength="30" value="" required autofocus/>
+        <br>Correo electrónico</br>
+        <input type="email" name="Email" maxlength="40" value="" required autofocus />
+        <br>Dirección<br/>
+        <input type="address" name="Dirección" maxlength="40" value="" required autofocus/>
+        <br>Localidad<br/>
+        <select>
+            <option value="Rosario">Rosario</option>
+            <option value="Funes">Funes</option>
+            <option value="VGG">VGG</option>
+            <option value="Roldán">Roldán</option>
+            </select>
+        <br>Teléfono</br>
+        <input type="tel" name="Teléfono" maxlength="12" value="" required autofocus/>
+        <br>Fecha de Nacimiento</br>
+        <input type="date" name="Fecha Nacimiento" maxlength="12" value="" required autofocus/>
+        <br>Sexo</br>
+        <input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre
+        <input type="radio" name="sexo" value="mujer" /> Mujer
+        <br>Adjuntar CV con foto</br>
+        <input type="file" name="adjunto" required autofocus/>
+        <br>Carta de Presentación (opcional)</br>
+        <textarea namd="carta" rows="10" cols="50" ></textarea>
+        <br></br>
+        <input type="submit" value="Enviar" />
+        <input type="reset" name="limpiar" value="Limpiar" />
+        </form></div>
+    </section>
+    <aside>
+    
+    </aside>
+    <footer>
+    
+    </footer>
+</body>
+</html>
