@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Gonzalo Maragliano- Esteban Vazquez -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +18,11 @@
  
     }
 </style>
+<SCRIPT languaje="JavaScript">
+    function pulsar() {
+    alert("Se ha cargado el archivo con exito");
+    }
+</SCRIPT>
 <body>
 
     <nav>
@@ -27,7 +34,7 @@
     </nav>
    
     <section>
-        <form name="miform" id="miform" method="POST"><div align="center">
+        <form name="miform" id="miform" method="POST"><div align="left">
         <br>Nombre y Apellido<br/>
         <input type="text" name="Nombre" maxlength="100" value="" />
         <br>Correo electrónico</br>
@@ -40,22 +47,22 @@
         <br>Hasta</br>
         <input type="time" name="mihora" id="mihora">
         <br>Consulta</br>
-        <textarea namd="carta" rows="10" cols="50" ></textarea>
+        <textarea name="carta" rows="10" cols="50" ></textarea>
         <br></br>
-        <input type="submit" value="Enviar" />
+        <input type="button" name="button1"  value="Enviar" onclick="pulsar()">
         <input type="reset" name="limpiar" value="Limpiar" />
     </form></div>
     </section>
     <aside>
-        <br></br>
-        <br>Horario de atención:</br>
-        <br>Lunes a Viernes de 9:00 a 18:00 hs</br>
-        <br>Eva Peron 5855</br>
-        <br>Cel 341 6613923</br>
+        <div align= "center"><br>Horario de atención:</br>
+            <br>Lunes a Viernes de 9:00 a 18:00 hs</br>
+            <br>Eva Peron 5855</br>
+            <br>Cel 341 6613923</br></div>
+            <br></br>
     </aside>
     <footer>
         <center><a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis"></a>
-            <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=300289"></a><br><a href='http://www.websmultimedia.com/contador-de-visitas-gratis'></a><br><a href='http://www.websmultimedia.com'></a></center>
+        <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=300289"></a><br><a href='http://www.websmultimedia.com/contador-de-visitas-gratis'></a><br><a href='http://www.websmultimedia.com'></a></center>
     </footer>
 </body>
 </html>
